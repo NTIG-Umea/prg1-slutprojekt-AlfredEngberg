@@ -1,11 +1,11 @@
 ## Vad
 
-Warhammer calkylator
+Warhammer wound calkylator
 
 
 ## vad ska finnas
 
-* Vapen (klass (pistol, flamer , bs, strength, damage och ap)
+* Vapen (klass (pistol, flamer, rapid fire, ), bs, strength, damage och ap)
 * Target (Toughness, wounds och save)
 * Svar i antal wounds och döda modeller som kommer att göras
 
@@ -26,3 +26,8 @@ Jag kommer att göra mattematiska uträkningar och beräkna.
 
 Och om jag hinner ska jag göra modifiers som kan modifiera to hit, to wound och save.
 Jag kommer också lägga till saker som transhuman physiology
+
+# Logg start
+
+### Log1
+Jag lade till GUI, vapen klassen och main. Jag har problem med att ge vapen ett värde. Nästa gång ska jag göra nya klasser för vem som skjuter och vad dom skjuter på och ge vapen värden
