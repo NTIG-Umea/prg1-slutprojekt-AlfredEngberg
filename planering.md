@@ -31,3 +31,6 @@ Jag kommer också lägga till saker som transhuman physiology
 
 ### Log1
 Jag lade till GUI, vapen klassen och main. Jag har problem med att ge vapen ett värde. Nästa gång ska jag göra nya klasser för vem som skjuter och vad dom skjuter på och ge vapen värden
+
+### Log2
+Jag lade till target och fixade problemet, jag tänkte mycket på hur jag skulle göra denna lektion, jag ska kollade  upp hur jag kan ta ut saker från variablar som vapen och target. När jag har gjort det är det nästan att bara göra matten
