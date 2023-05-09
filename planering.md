@@ -34,3 +34,6 @@ Jag lade till GUI, vapen klassen och main. Jag har problem med att ge vapen ett 
 
 ### Log2
 Jag lade till target och fixade problemet, jag tänkte mycket på hur jag skulle göra denna lektion, jag ska kollade  upp hur jag kan ta ut saker från variablar som vapen och target. När jag har gjort det är det nästan att bara göra matten
+
+### Log3
+Jag lade till GUI och jag lärde mig hur man tar ut ett specifikt värde från t.ex vapen. Jag ska nästa gång göra beräkningen to hit och kanske to wound om jag hinner. Problem jag stötte på idag var att jag vet inte hur jag ska göra med GUI för att få in och ut det jag vill. 

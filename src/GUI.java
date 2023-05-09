@@ -1,19 +1,22 @@
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class GUI {
-    private JButton calculate;
-    private JComboBox Bs;
-    private JComboBox Vapen;
-    private JComboBox target;
+    private JPanel panel1;
+    private JList Bs;
+    private JList Weapon;
+    private JList Target;
+    private JButton Calculate;
 
     public GUI() {
-        calculate.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
 
-            }
-        });
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("GUI");
+        GUI gui = new GUI();
+        frame.setContentPane(new GUI().panel1);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
     }
 }
