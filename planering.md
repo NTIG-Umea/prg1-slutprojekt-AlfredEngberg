@@ -36,4 +36,10 @@ Jag lade till GUI, vapen klassen och main. Jag har problem med att ge vapen ett 
 Jag lade till target och fixade problemet, jag tänkte mycket på hur jag skulle göra denna lektion, jag ska kollade  upp hur jag kan ta ut saker från variablar som vapen och target. När jag har gjort det är det nästan att bara göra matten
 
 ### Log3
-Jag lade till GUI och jag lärde mig hur man tar ut ett specifikt värde från t.ex vapen. Jag ska nästa gång göra beräkningen to hit och kanske to wound om jag hinner. Problem jag stötte på idag var att jag vet inte hur jag ska göra med GUI för att få in och ut det jag vill. 
+Jag lade till GUI och jag lärde mig hur man tar ut ett specifikt värde från t.ex vapen. Jag ska nästa gång göra beräkningen to hit och kanske to wound om jag hinner. Problem jag stötte på idag var att jag vet inte hur jag ska göra med GUI för att få in och ut det jag vill.
+
+### Log4
+Jag kunnde inte göra mycket för att internet var trasigt, men det jag gjorde var att jag planerade och tänkte hur jag skulle göra. Nästa gång ska jag göra så att det beräknar.
+
+###Log5
+Jag gjordefunktioner till to hit och för att ta ut vad man skadar på. Nästa gång ska jag göra så att jag lägger in listor i weapons och target

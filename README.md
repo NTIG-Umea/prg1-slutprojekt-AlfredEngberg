@@ -35,6 +35,8 @@ ditt program är och hur väl det fungerar samt din dokumentation av projektet (
 ca 10 timmars arbete, det är inte jättemycket tid, så tänk efter hur mycket
 du kommer att göra! 
 
+
+
 v.17 planering
 v.18 arbete
 v.19 arbete
