@@ -25,27 +25,7 @@
           </grid>
         </constraints>
         <properties>
-          <model>
-            <item value="Space Marine"/>
-            <item value="Guardsmen"/>
-            <item value="Ork boy"/>
-            <item value="Rhino"/>
-          </model>
-        </properties>
-      </component>
-      <component id="4d502" class="javax.swing.JList" binding="Weapon">
-        <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties>
-          <model>
-            <item value="Boltgun"/>
-            <item value="Lasgun"/>
-            <item value="Heavy bolter"/>
-            <item value="Lascannon"/>
-          </model>
+          <model/>
         </properties>
       </component>
       <component id="21d32" class="javax.swing.JButton" binding="Calculate">
@@ -92,6 +72,16 @@
         </constraints>
         <properties>
           <text value="Number of attacks"/>
+        </properties>
+      </component>
+      <component id="4d502" class="javax.swing.JList" binding="Weapon">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model/>
         </properties>
       </component>
     </children>

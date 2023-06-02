@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 
 public class GUI {
     private JPanel panel1;
@@ -11,6 +13,10 @@ public class GUI {
     private JSpinner Jspinner1;
 
     public GUI() {
+        String[] vapen = {"Lasgun", "Bolt Gun", "Las Cannon"};
+        String[] target = {"Space Marine", "Guardsmen", "Ork Boy"};
+
+        Weapon.addElement("Lasgun");
 
         Calculate.addActionListener(new ActionListener() {
             @Override
@@ -18,10 +24,19 @@ public class GUI {
                 int a = (Integer) Jspinner1.getValue();
                 main.Hits(a, 4/6);
 
-                int Strength;
-                int Toughness;
+                int Strength = 4;
+                int Toughness = 3;
 
-                main.towound();
+                double toWound = main.towound(Strength, Toughness);
+
+                System.out.println(toWound);
+            }
+        });
+        Weapon.addPropertyChangeListener(new PropertyChangeListener() {
+            @Override
+            public void propertyChange(PropertyChangeEvent evt) {
+                vapen SelectedWeapon = (vapen) Weapon.getSelectedValue();
+                System.out.println("bytte");
             }
         });
     }
