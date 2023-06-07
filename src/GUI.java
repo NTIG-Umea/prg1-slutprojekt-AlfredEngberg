@@ -16,8 +16,6 @@ public class GUI {
         String[] vapen = {"Lasgun", "Bolt Gun", "Las Cannon"};
         String[] target = {"Space Marine", "Guardsmen", "Ork Boy"};
 
-        Weapon.addElement("Lasgun");
-
         Calculate.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
